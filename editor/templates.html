@@ -9,22 +9,14 @@
 
 <script type="text/template" id="template_tryit">
     <div class="tryit-content center-exp">
-        <table class="tool">
-            <tr>
-                <td>
-                    <input type="text" value="test">
-                </td>
-                <td>
-                    <button class="bn-check btn">Action</button>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2" class="checkio-result">
-                    Result:<br>
-                    <span class="checkio-result-in">&nbsp;</span>
-                </td>
-            </tr>
+        <div class="tooltip">Enter numbers separated by whitespaces:</div>
+        <div class="center-exp">
+        <input type="text" class="numbers-input" name="numbers-input">
+        <button type="button" class="bn-check btn" value="Check">Check</button>
+        </div>
+        <div class="checkio-result">
+            <span class="checkio-result-in">&nbsp;</span>
+        </div>
 
-        </table>
     </div>
 </script>
